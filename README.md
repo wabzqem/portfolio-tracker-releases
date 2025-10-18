@@ -20,7 +20,7 @@ Get the latest version from the [Releases page](https://github.com/wabzqem/portf
 xattr -cr "/Applications/Portfolio Tracker.app"
 ```
 
-This is needed because the app isn't code-signed (requires $99/year Apple Developer account). The app is safe - it's open source!
+This is needed because the app isn't code-signed yet.
 
 **Alternative method:**
 1. Right-click Portfolio Tracker in Applications
@@ -88,17 +88,6 @@ Found a bug or need help?
 
 - ✅ All data stays on your computer
 - ✅ No tracking or analytics
-- ✅ No internet connection required (except for currency rate updates)
-- ✅ Open source - verify the code yourself
-
-**Why unsigned?**
-- Code signing requires expensive certificates ($99-500/year)
-- This is a personal/open-source project
-- You can review the source code to verify safety
-
-## 📜 License
-
-MIT License - see LICENSE file for details
 
 ## 💖 Support
 
@@ -111,4 +100,3 @@ If you find this app useful, consider:
 
 **Not affiliated with any broker or financial institution.**
 
-**Made with ❤️ for traders by traders**
