@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Tracker - Download</title>
+    <title>moomoo Portfolio Tracker - Download</title>
     <style>
         * {
             margin: 0;
@@ -158,6 +158,42 @@
         .github-link:hover {
             text-decoration: underline;
         }
+        
+        .screenshots {
+            margin: 40px 0;
+        }
+        
+        .screenshots h2 {
+            text-align: center;
+            color: #667eea;
+            margin-bottom: 30px;
+            font-size: 2rem;
+        }
+        
+        .screenshot-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .screenshot {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .screenshot:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+        
+        .screenshot img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -198,8 +234,54 @@
             </svg>
             <h1>Portfolio Tracker</h1>
         </div>
-        <p class="subtitle">Professional desktop app for tracking investments with capital gains calculation</p>
+        <p class="subtitle">Professional desktop app for tracking investments with capital gains calculation, importing trades from CSVs exported from moomoo</p>
         
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">📈</div>
+                <h3>Trade Tracking</h3>
+                <p>Import and analyze all your trades</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">💰</div>
+                <h3>Capital Gains</h3>
+                <p>ATO-compliant FIFO calculation</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">📊</div>
+                <h3>Performance Charts</h3>
+                <p>Visualize your trading results</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">💱</div>
+                <h3>Currency Convert</h3>
+                <p>USD/AUD with historical rates</p>
+            </div>
+        </div>
+        
+        <div class="screenshots">
+            <h2>Screenshots</h2>
+            <div class="screenshot-grid">
+                <div class="screenshot">
+                    <img src="screen1.png" alt="Portfolio Tracker - Overview">
+                </div>
+                <div class="screenshot">
+                    <img src="screen2.png" alt="Portfolio Tracker - Capital Gains">
+                </div>
+                <div class="screenshot">
+                    <img src="screen3.png" alt="Portfolio Tracker - Trades View">
+                </div>
+            </div>
+        </div>
+        
+        <div class="warning" style="margin-top: 30px;">
+            <strong>⚠️ Current Limitations:</strong>
+            <ul style="margin-top: 10px; margin-left: 20px; text-align: left;">
+                <li>Does <strong>not</strong> support short selling (stocks or options)</li>
+                <li>Does <strong>not</strong> support cash-secured puts or covered calls</li>
+                <li>Only supports long positions (buying to open, selling to close). Options that expire worthless are supported.</li>
+            </ul>
+        </div>
         <div class="platforms">
             <div class="platform">
                 <div class="platform-icon">🍎</div>
@@ -236,29 +318,6 @@
                 <a href="https://github.com/wabzqem/portfolio-tracker-releases/releases/latest" class="download-btn">
                     Download for Linux
                 </a>
-            </div>
-        </div>
-        
-        <div class="features">
-            <div class="feature">
-                <div class="feature-icon">📈</div>
-                <h3>Trade Tracking</h3>
-                <p>Import and analyze all your trades</p>
-            </div>
-            <div class="feature">
-                <div class="feature-icon">💰</div>
-                <h3>Capital Gains</h3>
-                <p>ATO-compliant FIFO calculation</p>
-            </div>
-            <div class="feature">
-                <div class="feature-icon">📊</div>
-                <h3>Performance Charts</h3>
-                <p>Visualize your trading results</p>
-            </div>
-            <div class="feature">
-                <div class="feature-icon">💱</div>
-                <h3>Currency Convert</h3>
-                <p>USD/AUD with historical rates</p>
             </div>
         </div>
         
