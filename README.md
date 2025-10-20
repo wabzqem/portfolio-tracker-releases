@@ -68,7 +68,24 @@ This is needed because the app isn't code-signed yet.
 4. Import your trading data (CSV format, exported from the moomoo desktop app under Accounts -> Securities -> History)
 5. View your portfolio, capital gains, and performance
 
-## 📖 Documentation
+## � Screenshots
+
+<div align="center">
+
+### Portfolio Overview
+<a href="screen1.png"><img src="screen1.png" alt="Portfolio Tracker - Overview" width="800"/></a>
+
+### Capital Gains Calculator
+<a href="screen2.png"><img src="screen2.png" alt="Portfolio Tracker - Capital Gains" width="800"/></a>
+
+### Trades View
+<a href="screen3.png"><img src="screen3.png" alt="Portfolio Tracker - Trades View" width="800"/></a>
+
+*Click on any screenshot to view full size*
+
+</div>
+
+## �📖 Documentation
 
 - [macOS Installation Guide](INSTALL_MACOS.md)
 - [Windows Installation Guide](INSTALL_WINDOWS.md)
