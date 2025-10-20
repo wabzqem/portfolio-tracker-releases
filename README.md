@@ -1,9 +1,8 @@
-# Portfolio Tracker
+# moomoo Portfolio Tracker
 
 > A professional desktop application for tracking investment portfolios with capital gains calculation, currency conversion, and performance analytics.
 
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## 📥 Download
 
@@ -54,11 +53,11 @@ This is needed because the app isn't code-signed yet.
 
 ## ✨ Features
 
-- 📊 **Trade Tracking**: Import and view all your trades
+- 📊 **Trade Tracking**: Import and view all your trades. Currently only supports long positions (stocks and options)
 - 💰 **Capital Gains**: ATO-compliant FIFO calculation
 - 📈 **Performance Charts**: Visualize your trading performance
 - 💱 **Currency Conversion**: Real-time USD/AUD conversion
-- 🎯 **Options Support**: Full support for options trading
+- 🎯 **Options Support**: Support for options trading, but not selling calls or puts (yet). Options that expire worthless are supported.
 - 📱 **Cross-Platform**: Works on macOS, Windows, and Linux
 
 ## 🚀 Quick Start
@@ -66,7 +65,7 @@ This is needed because the app isn't code-signed yet.
 1. Download the appropriate version for your platform
 2. Install following the platform-specific instructions above
 3. Open Portfolio Tracker
-4. Import your trading data (CSV format)
+4. Import your trading data (CSV format, exported from the moomoo desktop app under Accounts -> Securities -> History)
 5. View your portfolio, capital gains, and performance
 
 ## 📖 Documentation
